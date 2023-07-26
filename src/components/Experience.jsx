@@ -6,6 +6,7 @@ import { styles } from '../style';
 import { experiences} from '../constants';
 import  { SectionWrapper } from '../hoc';
 import { textVariant } from "../utils/motion";
+import { icons } from "../assets";
 
 const ExperienceCard = ({experience}) => (
 
@@ -18,7 +19,7 @@ const ExperienceCard = ({experience}) => (
     icon={
       <div className="flex justify-center items-center w-full h-full">
         <img 
-          src='/src/assets/icons.png'
+          src={icons}
           // alt={experience.company_name} 
           className='w-[80%] h-[80%] object-contain'
         />

@@ -5,6 +5,9 @@ import {
     webdev,
     javascript,
     typescript,
+    teeapp,
+    fitness,
+    knowedge,
     html,
     css,
     reactjs,
@@ -167,7 +170,7 @@ import {
           color: "green-text-gradient",
         }
       ],
-      image:  "/src/assets/knowedge.png",
+      image:knowedge,
       // source_code_link: "https://github.com/",
     },
     {
@@ -192,7 +195,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: "/src/assets/teeapp.png",
+      image:teeapp,
       // source_code_link: "https://github.com/",
     },
     {
@@ -213,7 +216,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image:  "/src/assets/fitness.png",
+      image:fitness,
       // source_code_link: "https://github.com/",
     },
   ];

@@ -73,8 +73,8 @@ const Contact = () => {
       className={`mt-12 flex xl:flex-row gap-5 overflow-hidden`}
     >
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-secondary bg-opacity-40 p-8 rounded-2xl'
+        variants={slideIn("center", "tween", 0.2, 1)}
+        className='xl:ml-0 w-[235px] flex-[0.55] xl:flex-[0.75]  bg-secondary bg-opacity-40 p-4 xl:p-12 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -91,7 +91,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="Enter your name"
               className='bg-white py-4 px-6 placeholder:text-secondary text-secondary rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -102,8 +102,8 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
-              className='bg-white py-4 px-6 placeholder:text-secondary text-secondary rounded-lg outline-none border-none font-medium'
+              placeholder="Enter your email"
+              className='bg-white py-4 px-6 placeholder:text-secondary text-secondary rounded-lg outline-none border-none font-medium '
             />
           </label>
           <label className='flex flex-col'>
@@ -113,7 +113,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Write your message'
               className='bg-white py-4 px-6 placeholder:text-secondary text-secondary rounded-lg outline-none border-none font-medium'
             />
           </label>

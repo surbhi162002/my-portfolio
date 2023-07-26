@@ -5,6 +5,11 @@ import uiux from "./uiux.png";
 import webdev from "./webdev.png";
 
 
+
+import fitness from "./fitness.png"
+import teeapp from "./teeapp.png";
+import knowedge from "./knowedge.png";
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 import icons from  './icons.png';
@@ -44,6 +49,9 @@ import typescript from "./tech/typescript.png";
 
 
 export {
+  teeapp,
+  fitness,
+  knowedge,
   stars,
   linkedin,
   cv,
